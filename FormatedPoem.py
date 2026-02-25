@@ -1,0 +1,2 @@
+poem = ("Twinkle twinkle little star,\n\t how I wonder what you are! \n\t Up above the world do high, \n\t like a diamond in the sky.\n Twinkle twinkle litele star, \n\t how I wonder what you are")
+print(poem)
