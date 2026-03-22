@@ -17,5 +17,10 @@ def lcm(x, y):
 
     return lcm
 
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+calc = lcm(a,b)
+print("LCM of above two numbers is:  ",calc)
+
 
 
