@@ -6,3 +6,6 @@ def add_numbers(a, b):
         return "Inputs must be integers!"
     # If both 'a' and 'b' are integers, return their sum.
     return a + b
+
+print(add_numbers(10, 20))    
+print(add_numbers(10, 20.23))
