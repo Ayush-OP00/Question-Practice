@@ -1,9 +1,8 @@
 #a Python program to add two objects if both objects are integers.
-def validator(x, y):
-    if isinstance(x, int) and isinstance(y, int):
-        return x+y
-    else:
-        print("the numbers are not integer type")
-
-x, y = map(int, input("Enter two number separated by space: ").split())
-print (validator(x, y))
+def add_numbers(a, b):
+    # Check if both 'a' and 'b' are integers using the 'isinstance' function.
+    if not (isinstance(a, int) and isinstance(b, int)):
+        # If either 'a' or 'b' is not an integer, return an error message.
+        return "Inputs must be integers!"
+    # If both 'a' and 'b' are integers, return their sum.
+    return a + b
