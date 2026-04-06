@@ -9,5 +9,6 @@
 # result = equality_checker(x, y)
 # print(result)
 
+#More optimised code
 x, y = map(int, input("Enter two numbers: ").split())
 print(x == y or abs(x + y) == 5 or abs(x - y) == 5)
